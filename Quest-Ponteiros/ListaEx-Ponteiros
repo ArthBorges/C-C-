@@ -1,0 +1,15 @@
+/* RESPOSTAS: AlgoProg2-lista-ponteiros.pdf
+
+1. x = 3, y = 4, *p = 4
+
+2.  A) Há um erro em "p = x", o certo é "p = &x"
+    B) Há um erro em "*temp = *i;", pois temp é uma variável do tipo ponteiro, logo, só pode armazenar endereços de memória. O correto seria "temp = i;"
+    C) O código está correto.
+
+3. Irá pular para a posição de memória 55024, pois cada inteiro do vetor ocupa 8 bytes. Ao deslocar 3 posições para frente, teremos 55000 + (8x3=24) = 55024
+
+5. Não, pois na primeira função x é passado por cópia, logo as alterações feitas na função não resultam alterações na main. Diferentemente, na segunda função é passado um ponteiro para v, e então realizada a troca de valores tanto na função, quanto na main por se tratar de um endereço de memória.
+
+Questões 4, 6, 7, 8 e 9 são de implementação.
+
+*/
